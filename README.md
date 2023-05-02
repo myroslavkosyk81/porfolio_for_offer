@@ -1,4 +1,4 @@
-#Sorry, I can't show all code. But don't worry, it works!  :)
+Sorry, I can't show all code. But don't worry, it works!  :)
 
 
 # Getting Started with Create React App
