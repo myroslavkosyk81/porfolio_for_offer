@@ -1,0 +1,28 @@
+.githubContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.githubTitle {
+    font-size: 100px;
+    color: #333;
+}
+.githubChart {
+    width: 820px;
+    text-align: center;
+}
+.dates {
+    padding: 10px;
+    color: #555;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.boxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+//Sorry, I can't show all code. But don't worry, it works! 

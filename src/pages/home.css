@@ -1,0 +1,141 @@
+.home {
+    
+    padding: 0;
+    margin: 0;
+   
+    background-color: #7da06f;
+    overflow: hidden;
+}
+@media screen and (max-width: 760px) {
+  .salute {
+    
+    flex-direction: column;
+}
+  .saluteTextContainer {
+    display: none;
+  }
+  .saluteTextContainerMobile {
+    display: flex;
+    flex: 2;
+  }
+  .saluteText {
+      color: #333;
+      font-size: 10vh;
+      cursor: default;
+  }
+  .saluteTextMobile {
+    color: #333;
+    font-size: 10vh;
+    cursor: default;
+  }
+  .saluteImg {
+    height: 45vh;
+    
+  }
+  .nameContainer {
+    height: 100vh;
+    background-color: palevioletred;
+    justify-content: center;
+}
+  .name {
+    display: flex;
+    flex-direction: column;
+    font-size: 10vh;
+    
+    line-height: 40vh;
+}
+  .jobTitleContainer {
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    
+  }
+  .jobTitle {
+    font-size: 8vh;
+    
+    line-height: 40vh;
+    
+    text-align: center;
+   /
+  }
+  .purple{
+    align-items: center !important;
+    /
+  }
+  .projects {
+    
+    padding: 0px 10px;
+    text-align: center;
+  }
+  .projectsTitle{
+    
+    transform: none !important;
+  }
+  .project {
+    flex-direction: column !important;
+    height: max-content;
+     
+  }
+  .project:nth-child(){
+      flex-direction: column;
+  }
+  
+  .phone{
+      transform: none !important;
+      
+  }
+  .phoneImg{
+    width: 280px;
+    /* height: 400px; */
+  }
+  .phoneScreen {
+    width: 253px;
+    height: 536px;
+   
+    top: 12px;
+    left: 23px;
+    border-radius: 31px;
+
+}
+  .laptop{
+     
+      transform: none !important;
+      
+    }
+  .laptopImg{
+    width: 350px;
+
+  }
+  .laptopScreen {
+    width: 259px;
+    height: 162px;
+   
+    top: 12px;
+    left: 168px;
+  }
+
+
+
+  .githubChart{
+    display: none;
+  }
+  .githubTitle{
+    text-align: center;
+    font-size: 10vw;
+  }
+  .githubSm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #555;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  .githubSmImg{
+   
+    width: 30vw;
+  }
+  
+}

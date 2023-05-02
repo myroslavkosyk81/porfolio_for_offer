@@ -1,0 +1,37 @@
+.intro {
+   
+    padding: 0;
+    margin: 0;
+    
+}
+.salute {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.saluteTextContainer {
+  flex: 2;
+}
+.saluteTextContainerMobile {
+   display: none;
+}
+.saluteImgContainer {
+    flex: 2;
+}
+.saluteText {
+    color: #333;
+    font-size: 40vh;
+    cursor: default;
+}
+.saluteImg {
+    height: 80vh;
+    color: #333;
+}
+.nameContainer {
+    height: 100vh;
+    background-color: rgb(120, 154, 200, 1);
+    justify-content: center;
+}
+//Sorry, I can't show all code. But don't worry, it works! 
